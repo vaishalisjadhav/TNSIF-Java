@@ -1,4 +1,4 @@
-public class Type_Casting {
+public class P4_TypeCasting {
     public static void main(String[] args) {
         // Widening / Implicit type casting
         byte b = 10;

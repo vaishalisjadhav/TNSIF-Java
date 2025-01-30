@@ -1,4 +1,4 @@
-public class Variable_Ranges {
+public class P3_DataTypeRanges {
         public static void main(String[] args) {
             //byte....8 bit
             byte byteMax = 127;

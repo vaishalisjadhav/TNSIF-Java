@@ -41,24 +41,11 @@ public class P17_Constructor {
         this.customerCity = customerCity;
     }
 
-    public void displayCustomerInfo() {
-        System.out.println("Customer Name: " + customerName);
-        System.out.println("Customer ID: " + customerId);
-        System.out.println("Customer City: " + customerCity);
+    public String toString() {
+        return "Customer Name: " + customerName + ", Customer ID: " + customerId + ", Customer City: " + customerCity;
     }
 
     public static void main(String[] args) {
-        // Using default constructor
-        P17_Constructor customer1 = new P17_Constructor();
-        customer1.setCustomerName("Vaishali");
-        customer1.setCustomerId(101);
-        customer1.setCustomerCity("Solapur");
-        customer1.displayCustomerInfo();
-
-        System.out.println();
-
-        // Using parameterized constructor
-        P17_Constructor customer2 = new P17_Constructor("Sneha", 102, "Pune");
-        customer2.displayCustomerInfo();
+        P18_Encapsulation.main(args);
     }
 }

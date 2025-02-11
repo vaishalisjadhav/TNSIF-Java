@@ -41,6 +41,7 @@ public class P17_Constructor {
         this.customerCity = customerCity;
     }
 
+
     public String toString() {
         return "Customer Name: " + customerName + ", Customer ID: " + customerId + ", Customer City: " + customerCity;
     }
